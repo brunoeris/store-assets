@@ -1,0 +1,64 @@
+:root {
+  --qelp-link:#EF3E33;
+  --qelp-link-hover:#DE1D11;
+  --qelp-link-active:#AF170E;
+  --qelp-accent:#38BC15;
+  --qelp-accent-hover:#2A8E10;
+  --qelp-accent-active:#1D600B;
+  --qelp-headers:#666666;
+  --qelp-headers-hover:#4D4D4D;
+  --qelp-headers-active:#333333;
+  --qelp-body:#9B9B9B;
+  --qelp-body-hover:#828282;
+  --qelp-body-active:#696969;
+  --qelp-muted:#ABB5BA;
+  --qelp-muted-hover:#8F9CA3;
+  --qelp-muted-active:#73848C;
+  --qelp-line:#E3E6E8;
+  --qelp-line-hover:#C7CED1;
+  --qelp-line-active:#ABB5BA;
+  --qelp-tint:#F8F8F8;
+  --qelp-tint-hover:#DBDFE1;
+  --qelp-tint-active:#BEC6CA;
+  --qelp-light:#FFFFFF;
+  --qelp-background:#F3F3F3;
+  --qelp-qlicker:#2A8E10;
+  --qelp-qlicker-pulse:#1D600B;
+  --qelp-error:#BA0000;
+
+  --qelp-h1-desktop-font-size: 42px;
+  --qelp-h1-desktop-line-height: 60px;
+  --qelp-h1-desktop-font-weight: 800;
+
+  --qelp-h1-mobile-font-size: 30px;
+  --qelp-h1-mobile-line-height: 40px;
+  --qelp-h1-mobile-font-weight: 800;
+
+  --qelp-h2-font-size: 24px;
+  --qelp-h2-line-height: 35px;
+  --qelp-h2-font-weight: 700;
+
+  --qelp-h3-font-size: 18px;
+  --qelp-h3-line-height: 30px;
+  --qelp-h3-font-weight: 400;
+
+  --qelp-body-font-size: 16px;
+  --qelp-body-line-height: 22px;
+  --qelp-body-font-weight: 400;
+
+  --qelp-small-font-size: 13px;
+  --qelp-small-line-height: 15px;
+  --qelp-small-font-weight: 400;
+
+  --qelp-button-large-font-size: 18px;
+  --qelp-button-large-line-height: 15px;
+  --qelp-button-large-font-weight: 700;
+
+  --qelp-button-normal-font-size: 16px;
+  --qelp-button-normal-line-height: 15px;
+  --qelp-button-normal-font-weight: 700;
+
+  --qelp-button-border-radius: 32px;
+
+  --qelp-space-unit: 5px;
+}
