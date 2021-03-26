@@ -61,4 +61,11 @@
   --qelp-button-border-radius: 32px;
 
   --qelp-space-unit: 5px;
+
+  --qelp-font-family: 'DIN2014-Regular';
+}
+
+@font-face {
+  font-family: 'DIN2014-Regular';
+  src: local('DIN2014-Regular'), url('http://35.180.188.10:8015/qelp-customers/ScarletBE/fonts/DIN2014-Regular.woff') format('woff');
 }
