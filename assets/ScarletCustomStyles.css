@@ -1,11 +1,11 @@
 :root {
   /* COLOR VARIABLES */
-  --qelp-link:#EF3E33;
-  --qelp-link-hover:#DE1D11;
-  --qelp-link-active:#AF170E;
-  --qelp-accent:#38BC15;
-  --qelp-accent-hover:#2A8E10;
-  --qelp-accent-active:#1D600B;
+  --qelp-link:#38BC15;
+  --qelp-link-hover:#2A8E10;
+  --qelp-link-active:#1D600B;
+  --qelp-accent:#EF3E33;
+  --qelp-accent-hover:#DE1D11;
+  --qelp-accent-active:#AF170E;
   --qelp-headers:#666666;
   --qelp-headers-hover:#4D4D4D;
   --qelp-headers-active:#333333;
@@ -23,8 +23,8 @@
   --qelp-tint-active:#BEC6CA;
   --qelp-light:#FFFFFF;
   --qelp-background:#F3F3F3;
-  --qelp-qlicker:#2A8E10;
-  --qelp-qlicker-pulse:#1D600B;
+  --qelp-qlicker:#EF3E33;
+  --qelp-qlicker-pulse:#AF170E;
   --qelp-error:#BA0000;
 
   /* FONT VARIABLES */
