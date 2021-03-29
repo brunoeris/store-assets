@@ -1,36 +1,36 @@
 :root {
   /* GENERAL COLOR VARIABLES */
-  --qelp-link:#38BC15;
-  --qelp-link-hover:#2A8E10;
-  --qelp-link-active:#1D600B;
-  --qelp-accent:#EF3E33;
-  --qelp-accent-hover:#DE1D11;
-  --qelp-accent-active:#AF170E;
-  --qelp-headers:#666666;
-  --qelp-headers-hover:#4D4D4D;
-  --qelp-headers-active:#333333;
-  --qelp-body:#9B9B9B;
-  --qelp-body-hover:#828282;
-  --qelp-body-active:#696969;
-  --qelp-muted:#ABB5BA;
-  --qelp-muted-hover:#8F9CA3;
-  --qelp-muted-active:#73848C;
-  --qelp-line:#E3E6E8;
-  --qelp-line-hover:#C7CED1;
-  --qelp-line-active:#ABB5BA;
-  --qelp-tint:#F8F8F8;
-  --qelp-tint-hover:#DBDFE1;
-  --qelp-tint-active:#BEC6CA;
+  --qelp-link:#239A98;
+  --qelp-link-hover:#1C7D7B;
+  --qelp-link-active:#135352;
+  --qelp-accent:#239A98;
+  --qelp-accent-hover:#1C7D7B;
+  --qelp-accent-active:#135352;
+  --qelp-headers:#333333;
+  --qelp-headers-hover:#1A1A1A;
+  --qelp-headers-active:#000000;
+  --qelp-body:#121212;
+  --qelp-body-hover:#121212;
+  --qelp-body-active:#121212;
+  --qelp-muted:#666666;
+  --qelp-muted-hover:#4D4D4D;
+  --qelp-muted-active:#333333;
+  --qelp-line:#B3B3B3;
+  --qelp-line-hover:#999999;
+  --qelp-line-active:#808080;
+  --qelp-tint:#FAFAFA;
+  --qelp-tint-hover:#E5E5E5;
+  --qelp-tint-active:#CCCCCC;
   --qelp-light:#FFFFFF;
-  --qelp-background:#F3F3F3;
-  --qelp-qlicker:#EF3E33;
-  --qelp-qlicker-pulse:#AF170E;
-  --qelp-error:#BA0000;
+  --qelp-background:#F5F5F5;
+  --qelp-qlicker:#239A98;
+  --qelp-qlicker-pulse:#F4FDFD;
+  --qelp-error:#CD0400;
 
   /* FONT VARIABLES */
-  --qelp-font-family: 'din-regular-webfont';
-  --qelp-font-family-light: 'din-regular-webfont';
-  --qelp-font-family-bold: 'din-regular-webfont';
+  --qelp-font-family: 'HCo Gotham Rounded SSm';
+  --qelp-font-family-light: 'HCo Gotham Rounded SSm';
+  --qelp-font-family-bold: 'HCo Gotham Rounded SSm';
 
   --qelp-h1-desktop-font-size: 42px;
   --qelp-h1-desktop-line-height: 60px;
@@ -70,62 +70,61 @@
   --qelp-button-large-font-weight: 700;
 
   /* Primary - styles and colors */
-  --qelp-button-primary-background-color: #38BC15;
+  --qelp-button-primary-background-color: #239A98;
   --qelp-button-primary-color: #FFFFFF;
   --qelp-button-primary-text-decoration: none;
 
-  --qelp-button-primary-hover-background-color: #31A412;
+  --qelp-button-primary-hover-background-color: #1C7D7B;
   --qelp-button-primary-hover-color: #FFFFFF;
   --qelp-button-primary-hover-text-decoration: none;
 
-  --qelp-button-primary-focus-border: 1px solid #FFFFFF;
+  --qelp-button-primary-focus-border: 1px solid transparent;
   --qelp-button-primary-focus-outline: none;
   --qelp-button-primary-focus-text-decoration: none;
-  --qelp-button-primary-focus-background-color: #31A412;
+  --qelp-button-primary-focus-background-color: #239A98;
   --qelp-button-primary-focus-color: #FFFFFF;
-  --qelp-button-primary-focus-box-shadow: 0 0 0 1px #666666;
+  --qelp-button-primary-focus-box-shadow: 0 0 0 1px #333333;
 
   --qelp-button-primary-active-text-decoration: none;
-  --qelp-button-primary-active-background-color: #31A412;
+  --qelp-button-primary-active-background-color: #135352;
   --qelp-button-primary-active-color: #FFFFFF;
 
   --qelp-button-primary-disabled-text-decoration: none;
-  --qelp-button-primary-disabled-background-color: #ABB5BA;
+  --qelp-button-primary-disabled-background-color: #666666;
   --qelp-button-primary-disabled-color: #FFFFFF;
 
   /* Secondary - styles and colors */
   --qelp-button-secondary-background-color: transparent;
-  --qelp-button-secondary-color: #9B9B9B;
-  --qelp-button-secondary-border: 1px solid #9B9B9B;
+  --qelp-button-secondary-color: #239A98;
+  --qelp-button-secondary-border: 1px solid #239A98;
   --qelp-button-secondary-text-decoration: none;
 
   --qelp-button-secondary-hover-text-decoration: none;
-  --qelp-button-secondary-hover-border: 1px solid #666666;
-  --qelp-button-secondary-hover-color: #666666;
+  --qelp-button-secondary-hover-border: 1px solid #1C7D7B;
+  --qelp-button-secondary-hover-color: #1C7D7B;
   --qelp-button-secondary-hover-background-color: transparent;
 
   --qelp-button-secondary-focus-outline: none;
   --qelp-button-secondary-focus-text-decoration: none;
-  --qelp-button-secondary-focus-border: 1px solid #666666;
-  --qelp-button-secondary-focus-color: #666666;
-  --qelp-button-secondary-focus-box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #666666;
+  --qelp-button-secondary-focus-border: 1px solid #239A98;
+  --qelp-button-secondary-focus-color: #239A98;
+  --qelp-button-secondary-focus-box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #333333;
   --qelp-button-secondary-focus-background-color: transparent;
 
   --qelp-button-secondary-active-text-decoration: none;
-  --qelp-button-secondary-active-border: 1px solid #666666;
-  --qelp-button-secondary-active-color: #666666;
+  --qelp-button-secondary-active-border: 1px solid #135352;
+  --qelp-button-secondary-active-color: #135352;
   --qelp-button-secondary-active-background-color: transparent;
 
   --qelp-button-secondary-disabled-text-decoration: none;
-  --qelp-button-secondary-disabled-border: 1px solid #DDDDDD;
-  --qelp-button-secondary-disabled-color: #DDDDDD;
+  --qelp-button-secondary-disabled-border: 1px solid #666666;
+  --qelp-button-secondary-disabled-color: #666666;
   --qelp-button-secondary-disabled-background-color: transparent;
 
 
   /* Others - general */
-  --qelp-button-border-radius: 32px;
+  --qelp-button-border-radius: 50px;
 
   /* GENERAL VARIABLES */
   --qelp-space-unit: 5px;
 }
-

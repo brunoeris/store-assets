@@ -1,36 +1,36 @@
 :root {
   /* GENERAL COLOR VARIABLES */
-  --qelp-link:#38BC15;
-  --qelp-link-hover:#2A8E10;
-  --qelp-link-active:#1D600B;
-  --qelp-accent:#EF3E33;
-  --qelp-accent-hover:#DE1D11;
-  --qelp-accent-active:#AF170E;
-  --qelp-headers:#666666;
-  --qelp-headers-hover:#4D4D4D;
-  --qelp-headers-active:#333333;
-  --qelp-body:#9B9B9B;
-  --qelp-body-hover:#828282;
-  --qelp-body-active:#696969;
-  --qelp-muted:#ABB5BA;
-  --qelp-muted-hover:#8F9CA3;
-  --qelp-muted-active:#73848C;
-  --qelp-line:#E3E6E8;
-  --qelp-line-hover:#C7CED1;
-  --qelp-line-active:#ABB5BA;
-  --qelp-tint:#F8F8F8;
-  --qelp-tint-hover:#DBDFE1;
-  --qelp-tint-active:#BEC6CA;
+  --qelp-link:#E60032;
+  --qelp-link-hover:#D10B2C;
+  --qelp-link-active:#80001C;
+  --qelp-accent:#E60032;
+  --qelp-accent-hover:#DF2700;
+  --qelp-accent-active:#80001C;
+  --qelp-headers:#E60032;
+  --qelp-headers-hover:#D10B2C;
+  --qelp-headers-active:#80001C;
+  --qelp-body:#444444;
+  --qelp-body-hover:#262626;
+  --qelp-body-active:#0D0D0D;
+  --qelp-muted:#A8A8AC;
+  --qelp-muted-hover:#8A8A8F;
+  --qelp-muted-active:#707075;
+  --qelp-line:#CACACA;
+  --qelp-line-hover:#B3B3B3;
+  --qelp-line-active:#999999;
+  --qelp-tint:#F6F6F6;
+  --qelp-tint-hover:#D9D9D9;
+  --qelp-tint-active:#BFBFBF;
   --qelp-light:#FFFFFF;
-  --qelp-background:#F3F3F3;
-  --qelp-qlicker:#EF3E33;
-  --qelp-qlicker-pulse:#AF170E;
-  --qelp-error:#BA0000;
+  --qelp-background:#E9E9EA;
+  --qelp-qlicker:#E60032;
+  --qelp-qlicker-pulse:#D10B2C;
+  --qelp-error:#CD0400;
 
   /* FONT VARIABLES */
-  --qelp-font-family: 'din-regular-webfont';
-  --qelp-font-family-light: 'din-regular-webfont';
-  --qelp-font-family-bold: 'din-regular-webfont';
+  --qelp-font-family: 'Albert';
+  --qelp-font-family-light: 'Albert';
+  --qelp-font-family-bold: 'Albert';
 
   --qelp-h1-desktop-font-size: 42px;
   --qelp-h1-desktop-line-height: 60px;
@@ -70,15 +70,15 @@
   --qelp-button-large-font-weight: 700;
 
   /* Primary - styles and colors */
-  --qelp-button-primary-background-color: #38BC15;
+  --qelp-button-primary-background-color: #E60032;
   --qelp-button-primary-color: #FFFFFF;
   --qelp-button-primary-text-decoration: none;
 
-  --qelp-button-primary-hover-background-color: #31A412;
+  --qelp-button-primary-hover-background-color: #D10B2C;
   --qelp-button-primary-hover-color: #FFFFFF;
   --qelp-button-primary-hover-text-decoration: none;
 
-  --qelp-button-primary-focus-border: 1px solid #FFFFFF;
+  --qelp-button-primary-focus-border: 1px solid #E60032;
   --qelp-button-primary-focus-outline: none;
   --qelp-button-primary-focus-text-decoration: none;
   --qelp-button-primary-focus-background-color: #31A412;
@@ -86,46 +86,45 @@
   --qelp-button-primary-focus-box-shadow: 0 0 0 1px #666666;
 
   --qelp-button-primary-active-text-decoration: none;
-  --qelp-button-primary-active-background-color: #31A412;
+  --qelp-button-primary-active-background-color: #80001C;
   --qelp-button-primary-active-color: #FFFFFF;
 
   --qelp-button-primary-disabled-text-decoration: none;
-  --qelp-button-primary-disabled-background-color: #ABB5BA;
+  --qelp-button-primary-disabled-background-color: #A8A8AC;
   --qelp-button-primary-disabled-color: #FFFFFF;
 
   /* Secondary - styles and colors */
-  --qelp-button-secondary-background-color: transparent;
-  --qelp-button-secondary-color: #9B9B9B;
-  --qelp-button-secondary-border: 1px solid #9B9B9B;
+  --qelp-button-secondary-background-color: rgba(230, 0, 50, 0.5);
+  --qelp-button-secondary-color: #FFFFFF;
+  --qelp-button-secondary-border: 1px solid rgba(230, 0, 50, 0.5);
   --qelp-button-secondary-text-decoration: none;
 
   --qelp-button-secondary-hover-text-decoration: none;
-  --qelp-button-secondary-hover-border: 1px solid #666666;
-  --qelp-button-secondary-hover-color: #666666;
-  --qelp-button-secondary-hover-background-color: transparent;
+  --qelp-button-secondary-hover-border: 1px solid rgba(209, 11, 44, 0.5);
+  --qelp-button-secondary-hover-color: #FFFFFF;
+  --qelp-button-secondary-hover-background-color: rgba(209, 11, 44, 0.5);
 
   --qelp-button-secondary-focus-outline: none;
   --qelp-button-secondary-focus-text-decoration: none;
-  --qelp-button-secondary-focus-border: 1px solid #666666;
-  --qelp-button-secondary-focus-color: #666666;
-  --qelp-button-secondary-focus-box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #666666;
-  --qelp-button-secondary-focus-background-color: transparent;
+  --qelp-button-secondary-focus-border: 1px solid #rgba(230, 0, 50, 0.5);
+  --qelp-button-secondary-focus-color: #FFFFFF;
+  --qelp-button-secondary-focus-box-shadow: 0 0 0 1px #FFFFFF, 0 0 0 2px #272726;
+  --qelp-button-secondary-focus-background-color: rgba(230, 0, 50, 0.5);
 
   --qelp-button-secondary-active-text-decoration: none;
-  --qelp-button-secondary-active-border: 1px solid #666666;
-  --qelp-button-secondary-active-color: #666666;
-  --qelp-button-secondary-active-background-color: transparent;
+  --qelp-button-secondary-active-border: 1px solid rgba(230, 0, 50, 0.5);
+  --qelp-button-secondary-active-color: #FFFFFF;
+  --qelp-button-secondary-active-background-color: rgba(230, 0, 50, 0.5);
 
   --qelp-button-secondary-disabled-text-decoration: none;
-  --qelp-button-secondary-disabled-border: 1px solid #DDDDDD;
-  --qelp-button-secondary-disabled-color: #DDDDDD;
-  --qelp-button-secondary-disabled-background-color: transparent;
+  --qelp-button-secondary-disabled-border: 1px solid #A8A8AC;
+  --qelp-button-secondary-disabled-color: #FFFFFF;
+  --qelp-button-secondary-disabled-background-color: #A8A8AC;
 
 
   /* Others - general */
-  --qelp-button-border-radius: 32px;
+  --qelp-button-border-radius: 4px;
 
   /* GENERAL VARIABLES */
   --qelp-space-unit: 5px;
 }
-
