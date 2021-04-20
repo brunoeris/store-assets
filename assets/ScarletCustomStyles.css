@@ -129,3 +129,7 @@
   --qelp-space-unit: 5px;
 }
 
+@font-face {
+  font-family: 'din-regular-webfont';
+  src: local('din-regular-webfont'), url('https://brunoeris.github.io/store-assets/assets/scarlet/fonts/din-regular-webfont.woff2') format('woff2');
+}
