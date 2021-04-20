@@ -128,3 +128,8 @@
   /* GENERAL VARIABLES */
   --qelp-space-unit: 5px;
 }
+
+@font-face {
+  font-family: 'Albert';
+  src: local('Albert'), url('https://brunoeris.github.io/store-assets/assets/callmedk/fonts/Albert.woff') format('woff');
+}
